@@ -38,9 +38,9 @@ extensions = ['sphinx_tabs.tabs',
     'sphinx_copybutton', # copy button for code blocks
     'sphinx_panels',    # dropdown directive
     'sphinx_rtd_theme', # read the docs theme
-    # 'sphinx.ext.autodoc', # Generate documentation from Python modules
-    # 'sphinx.ext.autosummary', # Generate summary tables for Python documentation
-    # 'sphinx.ext.intersphinx', # Hyperlinks to external projects (such as Python standard library)
+    'sphinx.ext.autodoc', # Generate documentation from Python modules
+    'sphinx.ext.autosummary', # Generate summary tables for Python documentation
+    'sphinx.ext.intersphinx', # Hyperlinks to external projects (such as Python standard library)
     # 'fibre_autodoc', # Generate summary tables for Python documentation
     'myst_parser' # render CHANGELOG markdown file
     
