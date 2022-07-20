@@ -290,7 +290,7 @@ See the <a class="reference external" href="https://python-can.readthedocs.io/en
 <h2><a class="toc-backref" href="#id6">Commanding the ODrive</a><a class="headerlink" href="#commanding-the-odrive" title="Permalink to this headline"></a></h2>
 <p>Now that we’ve verified the communication is working, we can try commanding the ODrive.
 Make sure your ODrive is configured and working properly over USB with:code:<cite>odrivetool</cite> before continuing.
-See the <span class="xref std std-ref">Getting Started Guide</span> for help with first-time configuration.</p>
+See the <a class="reference external" href="https://docs.python.org/3/library/unittest.mock-examples.html#getting-started" title="(in Python v3.10)"><span class="xref std std-ref">Getting Started Guide</span></a> for help with first-time configuration.</p>
 <p>To move the ODrive, we use the command <code class="code docutils literal notranslate"><span class="pre">Set</span> <span class="pre">Input</span> <span class="pre">Pos</span></code>, or cmd ID <code class="code docutils literal notranslate"><span class="pre">0x00C</span></code>.  First we create a message with this ID, and then “OR” in the axis ID.
 Then we create an 8-byte array of data with input position that we want, with a float value turned into bytes… this can be a pain though.</p>
 </section>
